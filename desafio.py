@@ -48,7 +48,7 @@ while True:
         elif valor > 0:
             saldo -= valor
             extrato += f"Saque: R$ {valor:.2f}\n"
-            numero_saques += 1
+            num_saques += 1
 
         else:
             print("A operação falhou! O valor informado é inválido.")
